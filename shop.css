@@ -1,0 +1,185 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background: url('img/street.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+nav h1 {
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3012f3;
+}
+
+/* Titolo della pagina */
+.products h2 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Ombra nera per il testo */
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Oswald';
+    margin-top: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+/* Grid dei prodotti */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Box dei prodotti */
+.product {
+    background: rgba(34, 34, 34, 0.6); /* Grigio scuro trasparente */
+    padding: 20px;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    background: rgba(34, 34, 34, 0.8); /* Meno trasparente al passaggio del mouse */
+}
+
+
+/* Immagini dei prodotti */
+.product img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Titolo e prezzo dei prodotti */
+.product h3 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Ombra nera per il testo */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    padding: 0px;
+}
+
+.product p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Ombra nera per il testo */
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Ombra nera per il testo */
+    text-align: center;
+    padding: 20px;
+    background: url('img/street.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 50px;
+}
+/* Sezione carrello */
+.cart {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.cart h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3012f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2a0eae;
+}
+
+#checkout-btn {
+    margin-top: 20px;
+}
+
+/* Sezione dei prodotti */
+.add-to-cart {
+    background-color: #3012f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #2a0eae;
+}
+
+
+.socials a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #ff5733;
+}

@@ -1,0 +1,120 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Sfondo scuro */
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: black;
+}
+
+nav h1 {
+    font-family: 'Poppins';
+    font-size: 35px;
+   
+    color: white;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3012f3;
+}
+
+/* Sezione contatti */
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-container h2 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Ombra nera per il testo */
+    font-size: 42px;
+    font-family: 'Bebas Neue';
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact-container img {
+    width: 100%;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Sfondo trasparente sopra l'immagine */
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* Grid social media */
+.social-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+.social-box {
+    background: rgba(34, 34, 34, 0.6); /* Box semi-trasparente */
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.social-box:hover {
+    transform: scale(1.1);
+    background: rgba(34, 34, 34, 0.8);
+}
+form {
+    margin-top: 50px; /* Modifica questo valore per aggiungere più spazio sopra il modulo */
+}
+
+
+.social-box i {
+    font-size: 40px;
+    color: white;
+}
+
+.social-box p {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
